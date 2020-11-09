@@ -1,0 +1,50 @@
+'2020-11-05 17:21:34 - BrowserEngine - INFO - You had select Chrome browser
+'2020-11-05 17:21:34 - BrowserEngine - INFO - The test server url is : https://www.baidu.com
+'2020-11-05 17:21:36 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--no-sandbox"]}}}
+'2020-11-05 17:21:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:55165
+'2020-11-05 17:21:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session HTTP/1.1" 200 716
+'2020-11-05 17:21:39 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:39 - BrowserEngine - INFO - Start Chrome browser.
+'2020-11-05 17:21:39 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/url {"url": "https://www.baidu.com"}
+'2020-11-05 17:21:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/url HTTP/1.1" 200 14
+'2020-11-05 17:21:40 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:40 - BrowserEngine - INFO - Open url: https://www.baidu.com
+'2020-11-05 17:21:40 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/window/maximize {}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/window/maximize HTTP/1.1" 200 51
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BrowserEngine - INFO - Maximize the current window.
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/timeouts {"implicit": 10000}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/timeouts HTTP/1.1" 200 14
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BrowserEngine - INFO - Set implicitly wait 10 seconds
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element {"using": "css selector", "value": "[id=\"kw\"]"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/element HTTP/1.1" 200 88
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/text {"id": "05355b65-b675-46d7-8569-240dd8b2c8ee"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "GET /session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/text HTTP/1.1" 200 12
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BasePage - INFO - Had find the element '  ' successfulby id via value: kw 
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/clear {"id": "05355b65-b675-46d7-8569-240dd8b2c8ee"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/clear HTTP/1.1" 200 14
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/value {"text": "selenium", "value": ["s", "e", "l", "e", "n", "i", "u", "m"], "id": "05355b65-b675-46d7-8569-240dd8b2c8ee"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/element/05355b65-b675-46d7-8569-240dd8b2c8ee/value HTTP/1.1" 200 14
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BasePage - INFO - Had type 'selenium' in inputBox
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element {"using": "css selector", "value": "[id=\"su\"]"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/element HTTP/1.1" 200 88
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/text {"id": "4248b93d-c152-40f3-92ba-ca192434120f"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "GET /session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/text HTTP/1.1" 200 12
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BasePage - INFO - Had find the element '  ' successfulby id via value: su 
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/click {"id": "4248b93d-c152-40f3-92ba-ca192434120f"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "POST /session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/click HTTP/1.1" 200 14
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/text {"id": "4248b93d-c152-40f3-92ba-ca192434120f"}
+'2020-11-05 17:21:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "GET /session/598bc461684fe03387c8e8465ae37848/element/4248b93d-c152-40f3-92ba-ca192434120f/text HTTP/1.1" 200 12
+'2020-11-05 17:21:41 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+'2020-11-05 17:21:41 - BasePage - INFO - The element '' was clicked.
+'2020-11-05 17:21:43 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:55165/session/598bc461684fe03387c8e8465ae37848 {}
+'2020-11-05 17:21:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:55165 "DELETE /session/598bc461684fe03387c8e8465ae37848 HTTP/1.1" 200 14
+'2020-11-05 17:21:43 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request

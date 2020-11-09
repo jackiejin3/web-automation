@@ -1,0 +1,24 @@
+2020-10-22 13:32:44,327 - root - INFO - You had select Chrome browser
+2020-10-22 13:32:44,327 - root - INFO - You had select Chrome browser
+2020-10-22 13:32:44,328 - root - INFO - The test server url is : https://www.baidu.com
+2020-10-22 13:32:44,328 - root - INFO - The test server url is : https://www.baidu.com
+2020-10-22 13:32:46,439 - root - INFO - Start Chrome browser.
+2020-10-22 13:32:46,439 - root - INFO - Start Chrome browser.
+2020-10-22 13:32:46,969 - root - INFO - Open url: https://www.baidu.com
+2020-10-22 13:32:46,969 - root - INFO - Open url: https://www.baidu.com
+2020-10-22 13:32:48,093 - root - INFO - Maximize the current window.
+2020-10-22 13:32:48,093 - root - INFO - Maximize the current window.
+2020-10-22 13:32:48,096 - root - INFO - Set implicitly wait 10 seconds
+2020-10-22 13:32:48,096 - root - INFO - Set implicitly wait 10 seconds
+2020-10-22 13:32:48,118 - root - INFO - Had find the element '  ' successfulby id via value: kw 
+2020-10-22 13:32:48,118 - root - INFO - Had find the element '  ' successfulby id via value: kw 
+2020-10-22 13:32:48,239 - root - INFO - Had type ' selenium ' in inputBox
+2020-10-22 13:32:48,239 - root - INFO - Had type ' selenium ' in inputBox
+2020-10-22 13:32:48,256 - root - INFO - Had find the element '  ' successfulby id via value: su 
+2020-10-22 13:32:48,256 - root - INFO - Had find the element '  ' successfulby id via value: su 
+2020-10-22 13:32:48,351 - root - INFO - The element '  ' was clicked.
+2020-10-22 13:32:48,351 - root - INFO - The element '  ' was clicked.
+2020-10-22 13:32:50,840 - root - INFO - Had take screenshot and save to foder : \screenshots
+2020-10-22 13:32:50,840 - root - INFO - Had take screenshot and save to foder : \screenshots
+2020-10-22 13:32:50,844 - root - INFO - Current page title is selenium_百度搜索
+2020-10-22 13:32:50,844 - root - INFO - Current page title is selenium_百度搜索

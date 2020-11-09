@@ -1,0 +1,12 @@
+2020-10-22 13:30:15,282 - BrowserEngine - INFO - You had select Chrome browser
+2020-10-22 13:30:15,282 - BrowserEngine - INFO - The test server url is : https://www.baidu.com
+2020-10-22 13:30:17,844 - BrowserEngine - INFO - Start Chrome browser.
+2020-10-22 13:30:18,384 - BrowserEngine - INFO - Open url: https://www.baidu.com
+2020-10-22 13:30:19,505 - BrowserEngine - INFO - Maximize the current window.
+2020-10-22 13:30:19,507 - BrowserEngine - INFO - Set implicitly wait 10 seconds
+2020-10-22 13:30:19,541 - BasePage - INFO - Had find the element '  ' successfulby id via value: kw 
+2020-10-22 13:30:19,693 - BasePage - INFO - Had type ' selenium ' in inputBox
+2020-10-22 13:30:19,735 - BasePage - INFO - Had find the element '  ' successfulby id via value: su 
+2020-10-22 13:30:19,809 - BasePage - INFO - The element '  ' was clicked.
+2020-10-22 13:30:22,300 - BasePage - INFO - Had take screenshot and save to foder : \screenshots
+2020-10-22 13:30:22,304 - BasePage - INFO - Current page title is selenium_°Ù¶ÈËÑË÷
